@@ -1,0 +1,45 @@
+.location-card-container {
+    width: 43%;
+    padding: 20px 15px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.location-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.detail-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.like-icon-container {
+    height: 42px;
+    width: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.like-default {
+    color: rgba(0, 0, 0, 0.4)
+}
+
+.like-active {
+    color: rgba(175, 197, 234, 0.8)
+}
+
+@media only screen and (max-width: 991px) {
+    .location-card-container {
+        width: 100%;
+    }
+}

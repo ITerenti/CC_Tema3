@@ -1,0 +1,43 @@
+.map-container {
+    margin: 40px 0;
+    height: 45vh;
+    min-height: 450px;
+    border-radius: 18px;
+}
+
+.autocomplete-field {
+    width: 100%;
+}
+
+.autocomplete-field > .ant-select-selector {
+    font-size: 18px;
+    padding-left: 14px;
+    height: 48px !important;
+    border-radius: 14px;
+    background: #ffffff;
+    border: none;
+    box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #fff !important;
+    border-color: rgb(217, 217, 217) !important;
+    transition-duration: .2s;
+    transition-timing-function: ease-in-out;
+}
+
+.autocomplete-field > .ant-select-selector:hover, .autocomplete-field > .ant-select-selector:focus {
+    box-shadow: inset 4px 4px 7px #b8b9be, inset -4px -4px 9px #fff !important;
+}
+
+.ant-select-selection-placeholder {
+    line-height: 48px !important;
+    text-align: left;
+}
+
+input {
+    height: 48px !important;
+    font-size: 16px;
+}
+
+.attractions-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

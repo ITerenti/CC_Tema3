@@ -1,0 +1,128 @@
+.sign-up-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0 5%;
+    height: 100vh;
+}
+
+.sign-up-form-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+    border-radius: 50px;
+    background: #ffffff;
+    box-shadow: 6px 6px 12px #b8b9be,-6px -6px 12px #fff!important;
+
+    padding: 40px;
+
+    max-width: 420px;
+    width: 100%;
+}
+
+.sign-up-form-container > h3 {
+    text-align: center;
+    font-size: 32px;
+
+    letter-spacing: 1.5px;
+    margin: 0 0 40px;
+}
+
+.sign-up-form > .form-input-field{
+    position: relative;
+}
+
+.input-label{
+    position: absolute;
+    top: -8px;
+    left: 12px;
+
+    font-size: 15px;
+    line-height: 15px;
+    padding: 0 3px;
+    background-color: transparent;
+
+    color: rgba(0, 0, 0, 0.7);
+
+    transition-duration: .2s;
+    transition-timing-function: ease-in-out;
+
+    pointer-events: none;
+}
+
+.input-field {
+    font-size: 18px;
+    padding-left: 14px;
+    border-radius: 14px;
+    background: #ffffff;
+    border: none;
+    box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #fff;
+
+    transition-duration: .2s;
+    transition-timing-function: ease-in-out;
+}
+
+.input-field:hover, .input-field:focus {
+    box-shadow: inset 4px 4px 7px #b8b9be, inset -4px -4px 9px #fff !important;
+}
+
+input {
+    height: 48px;
+}
+
+.sign-up-form-footer {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 20px;
+}
+
+.sign-up-form-footer > .submit-button {
+    padding: 16px 32px;
+    background: #fff;
+    border: none;
+    border-radius: 14px;
+    color: #444;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: bold;
+    letter-spacing: .5px;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    box-shadow: -6px -6px 14px rgba(255, 255, 255, .7),
+    -6px -6px 10px rgba(255, 255, 255, .5),
+    6px 6px 8px rgba(255, 255, 255, .075),
+    6px 6px 10px rgba(0, 0, 0, .15);
+}
+
+.sign-up-form-footer > .submit-button:hover {
+    box-shadow: -2px -2px 6px rgba(255, 255, 255, .6),
+    -2px -2px 4px rgba(255, 255, 255, .4),
+    2px 2px 2px rgba(255, 255, 255, .05),
+    2px 2px 4px rgba(0, 0, 0, .1);
+}
+.sign-up-form-footer > .submit-button:active {
+    box-shadow: inset -2px -2px 6px rgba(255, 255, 255, .7),
+    inset -2px -2px 4px rgba(255, 255, 255, .5),
+    inset 2px 2px 2px rgba(255, 255, 255, .075),
+    inset 2px 2px 4px rgba(0, 0, 0, .15);
+}
+
+.input-field-suggestion {
+    color: rgba(0, 0, 0, 0.5)
+}
+
+a {
+    margin-left: 5px;
+    color: rgba(0, 0, 0, 0.8) !important
+}
+
+a:hover {
+    color: rgba(0, 0, 0, 0.6) !important
+}
